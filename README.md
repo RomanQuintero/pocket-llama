@@ -93,8 +93,9 @@ Data: `results/threads-1-summary.csv`.
 | **6** | **78** | **24** |
 | 8 | 53 | 17 |
 
-The SoC has 1× Cortex-X4, 5× Cortex-A720 and 2× Cortex-A520. Six threads fit on the fast cores. With
-eight, the two little A520s join in and every step waits for them.
+Six threads produced the best throughput on this heterogeneous 1+5+2 CPU (1× Cortex-X4, 5× Cortex-A720,
+2× Cortex-A520). Moving to eight threads reduced performance, consistent with the two efficiency cores joining
+the workload and/or additional scheduling/synchronization overhead.
 
 ## Offline verification
 

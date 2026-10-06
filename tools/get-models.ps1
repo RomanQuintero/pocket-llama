@@ -1,5 +1,6 @@
 # Download GGUF models (all from one source: unsloth/Qwen3-*-GGUF, quant Q4_K_M) and record SHA256.
-param([string[]]$Sizes = @("0.6B"))
+# Resumes partial downloads (*.part) and keeps retrying, because the connection drops mid-file.
+param([string[]]$Sizes = @("0.6B"), [int]$MaxAttempts = 50)
 Set-Location "$env:USERPROFILE\Desktop\30-Projects\18"
 New-Item -ItemType Directory -Force models | Out-Null
 foreach ($s in $Sizes) {
@@ -8,8 +9,14 @@ foreach ($s in $Sizes) {
   $dst  = "models\$name"
   if (-not (Test-Path $dst)) {
     "downloading $url"
-    curl.exe -L --fail --retry 3 -o "$dst.part" $url 2>&1 | Select-Object -Last 2
-    if ($LASTEXITCODE -ne 0) { "FAILED $name"; continue }
+    $ok = $false
+    for ($i = 1; $i -le $MaxAttempts -and -not $ok; $i++) {
+      cmd /c "curl.exe -sS -L --fail -C - --retry 5 --retry-all-errors --speed-limit 1024 --speed-time 60 -o `"$dst.part`" $url 2>&1"
+      $ok = ($LASTEXITCODE -eq 0)
+      "attempt $i exit $LASTEXITCODE, have $([math]::Round((Get-Item "$dst.part" -ErrorAction SilentlyContinue).Length/1MB)) MB"
+      if (-not $ok) { Start-Sleep 5 }
+    }
+    if (-not $ok) { "FAILED $name"; continue }
     Move-Item "$dst.part" $dst -Force
   }
   $h = (Get-FileHash $dst -Algorithm SHA256).Hash

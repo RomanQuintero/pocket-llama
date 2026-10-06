@@ -1,0 +1,39 @@
+{
+  "session": "ladder-1",
+  "prompts": {
+    "short": "Explain in two sentences what a CPU cache is.",
+    "long": "Read the following text and then summarize it in three bullet points.\n\nThe history of mobile computing is a story of constraints. Early handheld devices had a few megabytes of memory, slow processors and batteries that lasted hours rather than days. Designers had to choose carefully which features to include, because every additional component consumed power and space. Over two decades, three trends changed this picture. First, semiconductor manufacturing processes shrank transistors so that far more computation fits into the same area and energy budget. Second, system-on-chip designs integrated the CPU, GPU, memory controller, image processor and modem into a single package, reducing the cost of moving data between components. Third, flash storage became cheap and fast enough that a phone can hold hundreds of gigabytes. Today a flagship phone has a multi-core processor with large and small cores, eight to sixteen gigabytes of memory and specialised accelerators for neural networks. Yet the same constraints have not disappeared: memory bandwidth, heat dissipation and battery capacity still limit how much work a phone can sustain. Running a large language model locally is a demanding test of all three, because every generated token requires reading most of the model weights from memory."
+  },
+  "defaults": {
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "n_predict": 128,
+    "ignore_eos": true,
+    "temp": 0.0,
+    "seed": 42,
+    "chat_template": true,
+    "reps": 3,
+    "warmup": true,
+    "prompts": [
+      "short",
+      "long"
+    ],
+    "cooldown_s": 60,
+    "threads": 6,
+    "tag": "ladder"
+  },
+  "jobs": [
+    {
+      "model": "Qwen3-0.6B-Q4_K_M.gguf"
+    },
+    {
+      "model": "Qwen3-1.7B-Q4_K_M.gguf"
+    },
+    {
+      "model": "Qwen3-4B-Q4_K_M.gguf"
+    },
+    {
+      "model": "Qwen3-8B-Q4_K_M.gguf"
+    }
+  ]
+}

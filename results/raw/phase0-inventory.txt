@@ -1,0 +1,325 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261006143744
+Nombre de usuario: PC\mugen
+Usuario RunAs: PC\mugen
+Nombre de la configuración: 
+Máquina: PC (Microsoft Windows NT 10.0.26200.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -file  C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1 
+Id. de proceso: 12232
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Env vars" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Env vars" al tipo "System.Int64". 
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 6 Carácter: 3
++ H "Env vars"
++   ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Env vars" al tipo "System.Int64".
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 6 Carácter: 3
++ H "Env vars"
++   ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+ANDROID_HOME=C:\Users\mugen\AppData\Local\Android\Sdk
+ANDROID_SDK_ROOT=
+ANDROID_NDK_HOME=
+JAVA_HOME=C:\Program Files\Android\Android Studio\jbr
+>> ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Commands on PATH" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Commands on PATH" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 8 Carácter: 3
++ H "Commands on PATH"
++   ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Commands on PATH" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 8 Carácter: 3
++ H "Commands on PATH"
++   ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+adb        C:\Users\mugen\AppData\Local\Android\Sdk\platform-tools\adb.exe
+java       C:\Program Files\Common Files\Oracle\Java\javapath\java.exe
+javac      C:\Program Files\Common Files\Oracle\Java\javapath\javac.exe
+gradle
+cmake
+ninja
+git        C:\Program Files\Git\cmd\git.exe
+python
+sdkmanager
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Android SDK: C:\Users\mugen\AppData\Local\Android\Sdk" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Android SDK: 
+C:\Users\mugen\AppData\Local\Android\Sdk" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato 
+correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 11 Carácter: 3
++ H "Android SDK: $sdk"
++   ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Android SDK:
+C:\Users\mugen\AppData\Local\Android\Sdk" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato
+correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 11 Carácter: 3
++ H "Android SDK: $sdk"
++   ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+--- platform-tools
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+etc1tool.exe
+fastboot.exe
+hprof-conv.exe
+libwinpthread-1.dll
+make_f2fs.exe
+make_f2fs_casefold.exe
+mke2fs.conf
+mke2fs.exe
+NOTICE.txt
+package.xml
+source.properties
+sqlite3.exe
+--- platforms
+android-35
+android-36
+android-37.0
+--- build-tools
+34.0.0
+36.0.0
+36.1.0
+--- ndk
+27.2.12479018
+--- cmake
+3.22.1
+--- cmdline-tools
+8.0
+latest
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Versions" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Versions" al tipo "System.Int64". 
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 18 Carácter: 3
++ H "Versions"
++   ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Versions" al tipo "System.Int64".
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 18 Carácter: 3
++ H "Versions"
++   ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+
+java : java version "21.0.12.1" 2026-08-18 LTS
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 20 Carácter: 1
++ java -version 2>&1
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (java version "21.0.12.1" 2026-08-18 LTS:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+Java(TM) SE Runtime Environment (build 21.0.12.1+1-LTS-4)
+Java HotSpot(TM) 64-Bit Server VM (build 21.0.12.1+1-LTS-4, mixed mode, sharing)
+
+C:\Program Files\Android\Android Studio\jbr\bin\java.exe
+C:\Program Files\Java\jdk-21.0.12.1
+C:\Program Files\Java\latest
+cmake : El término 'cmake' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. 
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e 
+inténtelo de nuevo.
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 22 Carácter: 1
++ cmake --version 2>&1 | Select-Object -First 1
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (cmake:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cmake : El término 'cmake' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 22 Carácter: 1
++ cmake --version 2>&1 | Select-Object -First 1
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (cmake:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Gradle caches" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Gradle caches" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 24 Carácter: 3
++ H "Gradle caches"
++   ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Gradle caches" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 24 Carácter: 3
++ H "Gradle caches"
++   ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+gradle-8.13-all
+gradle-8.9-bin
+gradle-9.2.0-bin
+gradle-9.6.0-bin
+CACHEDIR.TAG
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Devices" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Devices" al tipo "System.Int64". 
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 26 Carácter: 3
++ H "Devices"
++   ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Devices" al tipo "System.Int64".
+Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 26 Carácter: 3
++ H "Devices"
++   ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+
+ro.product.manufacturer = samsung
+ro.product.model = SM-F956B
+ro.product.device = q6q
+ro.build.version.release = 16
+ro.build.version.sdk = 36
+ro.product.cpu.abi = arm64-v8a
+ro.product.cpu.abilist = arm64-v8a
+ro.soc.manufacturer = QTI
+ro.soc.model = SM8650
+ro.board.platform = pineapple
+ro.build.display.id = BP4A.251205.006.F956BXXS4DZH5
+>> ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device memory" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device memory" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 30 Carácter: 5
++   H "Device memory"; & $adb shell cat /proc/meminfo | Select-Object - ...
++     ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device memory" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 30 Carácter: 5
++   H "Device memory"; & $adb shell cat /proc/meminfo | Select-Object - ...
++     ~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+MemTotal:       11381252 kB
+MemFree:          511472 kB
+MemAvailable:    3743228 kB
+Buffers:            7156 kB
+Cached:          3329728 kB
+SwapCached:        11484 kB
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device storage" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device storage" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 31 Carácter: 5
++   H "Device storage"; & $adb shell df -h /data
++     ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device storage" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 31 Carácter: 5
++   H "Device storage"; & $adb shell df -h /data
++     ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device CPU" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device CPU" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 32 Carácter: 5
++   H "Device CPU"; & $adb shell "cat /proc/cpuinfo | grep -E 'processo ...
++     ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Device CPU" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 32 Carácter: 5
++   H "Device CPU"; & $adb shell "cat /proc/cpuinfo | grep -E 'processo ...
++     ~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+
+out-file : No se puede encontrar una parte de la ruta de acceso 'C:\dev\null'.
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 33 Carácter: 76
++ ... ; do echo \$c \$(cat \$c/cpufreq/cpuinfo_max_freq 2>/dev/null); done"
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+out-file : No se puede encontrar una parte de la ruta de acceso 'C:\dev\null'.
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 33 Carácter: 76
++ ... ; do echo \$c \$(cat \$c/cpufreq/cpuinfo_max_freq 2>/dev/null); done"
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (:) [Out-File], DirectoryNotFoundException
+    + FullyQualifiedErrorId : FileOpenFailure,Microsoft.PowerShell.Commands.OutFileCommand
+
+
+PS>ErrorTerminación(Get-History): "No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Battery / thermal" al tipo "System.Int64". Error: "La cadena de entrada no tiene el formato correcto.""
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Battery / thermal" al tipo 
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 34 Carácter: 5
++   H "Battery / thermal"; & $adb shell dumpsys battery; & $adb shell d ...
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+Get-History : No se puede enlazar el parámetro 'Id'. No se puede convertir el valor "Battery / thermal" al tipo
+"System.Int64". Error: "La cadena de entrada no tiene el formato correcto."
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-inventory.ps1: 34 Carácter: 5
++   H "Battery / thermal"; & $adb shell dumpsys battery; & $adb shell d ...
++     ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-History], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.GetHistoryCommand
+
+
+IsStatusOverride: false
+ThermalEventListeners:
+	callbacks: 4
+	killed: false
+	broadcasts count: -1
+ThermalStatusListeners:
+	callbacks: 15
+	killed: false
+	broadcasts count: -1
+Thermal Status: 0
+Cached temperatures:
+	Temperature{mValue=32.1, mType=2, mName=SUBBAT, mStatus=0}
+	Temperature{mValue=47.3, mType=0, mName=AP, mStatus=0}
+	Temperature{mValue=42.4, mType=12, mName=CP, mStatus=0}
+	Temperature{mValue=42.4, mType=5, mName=PA, mStatus=0}
+	Temperature{mValue=35.2, mType=2, mName=BAT, mStatus=0}
+	Temperature{mValue=31.2, mType=4, mName=USB, mStatus=0}
+	Temperature{mValue=37.9, mType=3, mName=SKIN, mStatus=0}
+HAL Ready: true
+HAL connection:
+	ThermalHAL AIDL 3  connected: yes
+Current temperatures from HAL:
+	Temperature{mValue=35.8, mType=0, mName=AP, mStatus=0}
+	Temperature{mValue=34.5, mType=2, mName=BAT, mStatus=0}
+	Temperature{mValue=35.9, mType=12, mName=CP, mStatus=0}
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261006143751
+**********************

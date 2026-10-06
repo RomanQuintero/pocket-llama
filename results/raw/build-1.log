@@ -1,0 +1,12 @@
+﻿java.exe : openjdk version "25.0.3" 2026-04-21
+En C:\Users\mugen\Desktop\30-Projects\18\tools\queue\020-build.ps1: 6 Carácter: 1
++ & "$env:JAVA_HOME\bin\java.exe" -version 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (openjdk version "25.0.3" 2026-04-21:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+OpenJDK Runtime Environment (build 25.0.3+-15898627-b508.16)
+OpenJDK 64-Bit Server VM (build 25.0.3+-15898627-b508.16, mixed mode)
+"gradlew.bat" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+BUILD EXIT 1 after 0s

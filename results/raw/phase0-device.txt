@@ -1,0 +1,305 @@
+﻿===== adb version =====
+Android Debug Bridge version 1.0.41
+Version 37.0.1-15733141
+Installed as C:\Users\mugen\AppData\Local\Android\Sdk\platform-tools\adb.exe
+Running on Windows 10.0.26200
+
+===== adb devices -l =====
+List of devices attached
+RFCX903ELZH            device product:q6qxeea model:SM_F956B device:q6q transport_id:1
+
+
+===== adb shell df -h /data /sdcard =====
+Filesystem       Size Used Avail Use% Mounted on
+/dev/block/dm-65 222G  80G  142G  36% /data/user/0
+/dev/fuse        222G  80G  142G  36% /storage/emulated
+
+===== adb shell cat /proc/cpuinfo =====
+processor	: 0
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd80
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd80
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 3
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 4
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 5
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 6
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd81
+CPU revision	: 1
+
+processor	: 7
+BogoMIPS	: 38.40
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp flagm2 frint i8mm bf16 dgh bti ecv afp
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd82
+CPU revision	: 1
+
+
+===== adb shell cat /sys/devices/system/cpu/cpu*/cpufreq/cpuinfo_max_freq =====
+2265600
+2265600
+3148800
+3148800
+3148800
+2956800
+2956800
+3398400
+
+===== adb shell cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq =====
+556800
+556800
+614400
+614400
+614400
+729600
+499200
+672000
+
+===== adb shell cat /proc/meminfo =====
+MemTotal:       11381252 kB
+MemFree:          507064 kB
+MemAvailable:    3792940 kB
+Buffers:            8020 kB
+Cached:          3366880 kB
+SwapCached:        11484 kB
+Active:          3809292 kB
+Inactive:        1478944 kB
+Active(anon):    1907596 kB
+Inactive(anon):   787360 kB
+Active(file):    1901696 kB
+Inactive(file):   691584 kB
+Unevictable:      412820 kB
+Mlocked:          228656 kB
+SwapTotal:      12582908 kB
+SwapFree:        7267560 kB
+Dirty:               104 kB
+Writeback:             0 kB
+AnonPages:       2642032 kB
+Mapped:          1166424 kB
+Shmem:             64364 kB
+KReclaimable:     522500 kB
+Slab:            1158240 kB
+SReclaimable:     352940 kB
+SUnreclaim:       805300 kB
+KernelStack:      195040 kB
+ShadowCallStack:       0 kB
+PageTables:       380084 kB
+SecPageTables:         0 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    18017532 kB
+Committed_AS:   766948980 kB
+VmallocTotal:   259653632 kB
+VmallocUsed:      379136 kB
+VmallocChunk:          0 kB
+Percpu:            13120 kB
+AnonHugePages:      4096 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugepagePool:          0 kB
+CmaTotal:         540672 kB
+CmaFree:               0 kB
+DmaHeapPool:      168752 kB
+system:           574804 kB
+RbinTotal:        512000 kB
+RbinAlloced:        1244 kB
+RbinFree:          10276 kB
+RbinCached:       500480 kB
+zram0:           1706252 kB
+GpuTotal:         196140 kB
+GpuSwap:               0 kB
+KgslShmemUsage:   180828 kB
+
+===== adb shell dumpsys battery =====
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 0
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: 0
+  Max charging voltage: 0
+  Charge counter: 3548250
+  status: 2
+  health: 2
+  present: true
+  level: 83
+  scale: 100
+  voltage: 4262
+ Time when the latest updated value of the voltage was sent via battery changed broadcast: 0
+ The last voltage value sent via the battery changed broadcast: 4255
+  temperature: 342
+  technology: Li-ion
+  Charging state: 0
+  Charging policy: 0
+  Capacity level: -1
+  batteryMiscEvent: 268500992
+  batteryCurrentEvent: 32768
+  mSecPlugTypeSummary: 2
+  LED Charging: true
+  LED Low Battery: true
+  current now: 700000
+  charge counter: 3548250
+  Adaptive Fast Charging Settings: true
+  Super Fast Charging Settings: false
+FEATURE_WIRELESS_FAST_CHARGER_CONTROL: true
+  mWasUsedWirelessFastChargerPreviously: true
+  mWirelessFastChargingSettingsEnable: true
+LLB CAL: 20240909
+LLB MAN: 
+LLB CURRENT: YEAR2026M9D12
+LLB DIFF: 104
+SEC_FEATURE_BATTERY_FULL_CAPACITY: true
+  mFullCapacityEnable: false
+FEATURE_HICCUP_CONTROL: true
+FEATURE_SUPPORTED_DAILY_BOARD: false
+SEC_FEATURE_BATTERY_LIFE_EXTENDER: false
+SEC_FEATURE_USE_WIRELESS_POWER_SHARING: true
+ mProtectBatteryMode: 0
+ mProtectionThreshold: 80
+ mMaximumProtectionThreshold: 80
+ mLtcHighThreshold: 95
+ mLtcHighSocDuration: 10080
+ mLtcReleaseThreshold: 75
+[Not Battery Adaptive Protect Mode]
+  FEATURE_SAVE_BATTERY_CYCLE: true
+  FEATURE_FULL_BATTERY_CYCLE: true
+  battery IcAuthenticationResults: [true, true]
+  battery FirstUseDate: [20240927, 20240927]
+  mSavedBatteryAsoc: [96, 96]
+  mSavedBatteryUsage: [29010, 29010]
+  mSavedFullStatusDuration: [84557, 84557]
+
+[EventLogBuffer]
+09-24 14:43:56.159  android.intent.action.ACTION_POWER_DISCONNECTED
+09-27 18:56:33.030  android.intent.action.ACTION_POWER_CONNECTED
+09-27 20:35:43.223  android.intent.action.ACTION_POWER_DISCONNECTED
+09-30 20:40:23.822  android.intent.action.ACTION_POWER_CONNECTED
+09-30 22:00:19.258  android.intent.action.ACTION_POWER_DISCONNECTED
+10-02 10:54:20.357  android.intent.action.ACTION_POWER_CONNECTED
+10-02 12:11:36.480  android.intent.action.ACTION_POWER_DISCONNECTED
+10-04 11:40:43.409  android.intent.action.ACTION_POWER_CONNECTED
+10-04 14:43:26.370  android.intent.action.ACTION_POWER_DISCONNECTED
+10-04 15:24:32.537  android.intent.action.ACTION_POWER_CONNECTED
+10-04 15:50:51.518  android.intent.action.ACTION_POWER_DISCONNECTED
+10-04 15:51:00.441  android.intent.action.ACTION_POWER_CONNECTED
+10-04 15:51:44.048  android.intent.action.ACTION_POWER_DISCONNECTED
+10-04 15:51:52.910  android.intent.action.ACTION_POWER_CONNECTED
+10-04 15:52:03.865  android.intent.action.ACTION_POWER_DISCONNECTED
+10-04 15:52:12.670  android.intent.action.ACTION_POWER_CONNECTED
+10-04 16:48:00.162  android.intent.action.ACTION_POWER_DISCONNECTED
+10-06 13:56:28.117  android.intent.action.ACTION_POWER_CONNECTED
+10-06 14:32:07.296  android.intent.action.ACTION_POWER_DISCONNECTED
+10-06 14:32:21.026  android.intent.action.ACTION_POWER_CONNECTED
+
+[SleepChargingLogBuffer]
+
+[BattInfoLogBuffer]
+09-12 16:24:43.286  mBatteryType:3 ,mBatteryCount:2
+09-12 16:24:46.289  Final IcAuthenticationResults:[true, true]
+09-12 16:24:46.292  [SS][BattInfo]QrData efsValue:GH43-05215A+DL1X626AS+00790NSN00 ,authValue:GH43-05215A+DL1X626AS+00790NSN00    efsValue:GH43-05219A+DL1X624AS+02706NSN00 ,authValue:GH43-05219A+DL1X624AS+02706NSN00    
+09-12 16:24:46.295  [SS][BattInfo]FirstUseDateData efsValue:20240927 ,authValue:20240927    efsValue:20240927 ,authValue:20240927    
+09-12 16:24:46.296  [SS][BattInfo]AsocData efsValue:97 ,authValue:97    efsValue:97 ,authValue:99    
+09-12 16:24:46.301  [SS][BattInfo]AsocData efsValue:97 ,authValue:97    efsValue:97 ,authValue:97    
+09-12 16:24:46.305  [SS][BattInfo]DischargeLevelData efsValue:28280 ,authValue:28280    efsValue:28280 ,authValue:28280    
+09-12 16:24:46.308  [SS][BattInfo]FullStatusUsageData efsValue:82914 ,authValue:82914    efsValue:82914 ,authValue:82914    
+
+[BattActionChangedLogBuffer]
+10-06 14:24:14.162  Sending ACTION_BATTERY_CHANGED: level:72, status:2, health:2, remain:2238, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4324, temperature:362, online:38, charging_status:0, cycle_count:0, current_avg:2989999, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3039525, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:25:05.637  Sending ACTION_BATTERY_CHANGED: level:73, status:2, health:2, remain:2199, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4329, temperature:361, online:38, charging_status:0, cycle_count:0, current_avg:2888749, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3082275, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:25:57.083  Sending ACTION_BATTERY_CHANGED: level:74, status:2, health:2, remain:2159, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4345, temperature:360, online:38, charging_status:0, cycle_count:0, current_avg:2901875, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3125025, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:26:48.599  Sending ACTION_BATTERY_CHANGED: level:75, status:2, health:2, remain:2116, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4355, temperature:360, online:38, charging_status:0, cycle_count:0, current_avg:2926874, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3172050, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:27:40.116  Sending ACTION_BATTERY_CHANGED: level:76, status:2, health:2, remain:2076, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4370, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2954062, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3214800, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:28:21.233  Sending ACTION_BATTERY_CHANGED: level:77, status:2, health:2, remain:2040, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4376, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2919374, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3253275, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:29:12.653  Sending ACTION_BATTERY_CHANGED: level:78, status:2, health:2, remain:2001, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4392, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2965937, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3296025, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:30:04.143  Sending ACTION_BATTERY_CHANGED: level:79, status:2, health:2, remain:1958, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4400, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2909062, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3338775, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:30:45.337  Sending ACTION_BATTERY_CHANGED: level:80, status:2, health:2, remain:1922, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4411, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2929687, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3377250, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:31:36.826  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1882, ac:true, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:1, charger_type:3, voltage:4417, temperature:359, online:38, charging_status:0, cycle_count:0, current_avg:2805312, ps:false, hvc:true, current_event:0x40000000, mcc:0, mcv:0, cc:3420000, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:07.296  Sending ACTION_BATTERY_CHANGED: level:81, status:3, health:2, remain:0, ac:false, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:0, charger_type:0, voltage:4390, temperature:360, online:1, charging_status:0, cycle_count:0, current_avg:2661250, ps:false, hvc:false, current_event:0x40000000, mcc:0, mcv:0, cc:3445650, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:07.798  Sending ACTION_BATTERY_CHANGED: level:81, status:3, health:2, remain:0, ac:false, usb:false, wireless:false, pogo:false, misc:0x10000, charge_type:0, charger_type:0, voltage:4238, temperature:360, online:1, charging_status:0, cycle_count:0, current_avg:2380312, ps:false, hvc:false, current_event:0x40000000, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:21.276  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1896, ac:false, usb:true, wireless:false, pogo:false, misc:0x10000, charge_type:0, charger_type:1, voltage:4232, temperature:358, online:4, charging_status:0, cycle_count:0, current_avg:612499, ps:false, hvc:true, current_event:0x10000000, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:21.639  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1896, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:0, charger_type:1, voltage:4175, temperature:358, online:4, charging_status:0, cycle_count:0, current_avg:559062, ps:false, hvc:true, current_event:0x10008004, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:23.486  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1896, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:1, charger_type:1, voltage:4144, temperature:357, online:4, charging_status:0, cycle_count:0, current_avg:335312, ps:false, hvc:true, current_event:0x4, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:23.676  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1896, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:0, charger_type:1, voltage:4144, temperature:357, online:4, charging_status:0, cycle_count:0, current_avg:313124, ps:false, hvc:true, current_event:0x10008004, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:33.882  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:1896, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:1, charger_type:0, voltage:4227, temperature:356, online:4, charging_status:0, cycle_count:0, current_avg:157499, ps:false, hvc:false, current_event:0x8004, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:32:44.060  Sending ACTION_BATTERY_CHANGED: level:81, status:2, health:2, remain:3545, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:1, charger_type:0, voltage:4234, temperature:359, online:4, charging_status:0, cycle_count:0, current_avg:170312, ps:false, hvc:false, current_event:0x8000, mcc:0, mcv:0, cc:3454200, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:34:05.909  Sending ACTION_BATTERY_CHANGED: level:82, status:2, health:2, remain:3465, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:1, charger_type:0, voltage:4245, temperature:353, online:4, charging_status:0, cycle_count:0, current_avg:699687, ps:false, hvc:false, current_event:0x8000, mcc:0, mcv:0, cc:3467025, present:true, scale:100, technology:Li-ion, protection:0
+10-06 14:37:20.157  Sending ACTION_BATTERY_CHANGED: level:83, status:2, health:2, remain:3271, ac:false, usb:true, wireless:false, pogo:false, misc:0x10010000, charge_type:1, charger_type:0, voltage:4255, temperature:345, online:4, charging_status:0, cycle_count:0, current_avg:717812, ps:false, hvc:false, current_event:0x8000, mcc:0, mcv:0, cc:3509775, present:true, scale:100, technology:Li-ion, protection:0
+
+mBatteryChangedConditionCounts:[78, 3, 1, 1466, 72, 1466, 865, 0, 0, 72, 73, 0, 69, 0, 0, 46, 211, 74, 0, 0, 0, 1]
+BatteryInfoBackUp
+  mSavedBatteryMaxTemp: 449
+  mSavedBatteryMaxCurrent: 5068125
+  mSavedBatteryBsoh: 98
+
+===== adb shell getprop ro.config.low_ram =====
+
+
+===== adb shell getprop persist.sys.zram_enabled =====
+
+
+===== adb shell cat /proc/swaps =====
+adb.exe : cat: /proc/swaps: Permission denied
+En C:\Users\mugen\Desktop\30-Projects\18\tools\phase0-device.ps1: 16 Carácter: 55
++ ... in $cmds){ "===== adb $c ====="; (& $adb ($c -split ' ') 2>&1 | Out-S ...
++                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (cat: /proc/swaps: Permission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+

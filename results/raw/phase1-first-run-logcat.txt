@@ -1,0 +1,9 @@
+--------- beginning of main
+10-06 15:00:20.381 17484 17548 I llmceiling: Loading ggml backends from /data/app/~~arRZc7ob0wvfUzn8q-loAg==/dev.rq.llmceiling-rA67zP5h-9_mj_EHrnknLA==/lib/arm64
+10-06 15:00:20.391 17484 17548 I llmceiling: llama.cpp ready. backends: CPU (CPU)
+10-06 15:00:20.391 17484 17548 I llmceiling: CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | OPENMP = 1 | KLEIDIAI = 1 | REPACK = 1 | 
+10-06 15:00:20.392 17484 17548 I llmceiling: loading Qwen3-0.6B-Q4_K_M.gguf …
+10-06 15:00:21.177 17484 17548 I llmceiling: loaded qwen3 0.6B Q4_K - Medium in 708 ms (+ctx 76 ms)
+10-06 15:00:21.185 17484 17548 I llmceiling: loaded qwen3 0.6B Q4_K - Medium in 0,71 s, RSS 1198 MiB
+10-06 15:00:23.614 17484 17548 I llmceiling: prompt 19 tok · prefill 84 ms (226.4 t/s) gen 128 tok · decode 56.0 t/s · TTFT 86 ms · total 2.4 s · stop=n_predict RSS 1198 MiB · net=online
+10-06 15:00:37.714 17484 17548 I llmceiling: missing /storage/emulated/0/Android/data/dev.rq.llmceiling/files/bench-config.json

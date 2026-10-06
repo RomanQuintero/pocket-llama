@@ -6,3 +6,4 @@ local.properties
 *.gguf
 models/
 tools/queue/
+tools/p18-src.tgz

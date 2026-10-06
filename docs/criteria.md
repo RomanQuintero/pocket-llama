@@ -33,3 +33,11 @@ measurements are kept so readers can apply their own.
   n_ctx 2048, n_batch 512, same thread count (chosen once by a sweep on the small models, then frozen),
   1 warm-up + 3 measured repetitions, 60 s cooldown between models, run order and thermal state recorded.
 - Medians over the 3 repetitions are used for the classification.
+
+## Addendum (written after the ladder, before the cold control was run)
+
+The ladder ran in fixed order 0.6B → 1.7B → 4B → 8B, so the 8B was measured with the phone already at
+thermal status 3 (big cores capped near 1 GHz). To avoid silently penalising it (Phase 5), the 8B is
+re-run alone from a cold start (thermal status 0, battery ≤ 32.5 °C): 1 warm-up + 6 repetitions with the
+same settings. **Its classification uses the median of the first 3 repetitions** (same count as the
+ladder); all 6 are kept as a thermal-decay series. Both the in-ladder and the cold numbers are reported.

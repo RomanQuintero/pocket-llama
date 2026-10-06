@@ -1,0 +1,2 @@
+session,model_file,params_b,threads,file_size_gb,load_s,n_runs,all_ok,decode_tps_median,decode_tps_short,decode_tps_long,decode_tps_min,decode_tps_max,prefill_tps_long,prefill_tps_short,n_prompt_long,ttft_short_ms,ttft_long_ms,rss_peak_mb,rss_anon_mb,rss_file_mb,swap_mb_max,battery_temp_c_max,thermal_status_max,level
+cold-8b-1,Qwen3-8B-Q4_K_M.gguf,8.191,6,5.028,11.0,12,True,4.21,4.21,4.17,3.36,6.45,13.2,10.4,246,1831,18620,5222,4829,74,90,40,3,FITS
